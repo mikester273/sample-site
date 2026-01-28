@@ -1,0 +1,62 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark grey background */
+    color: #ffffff; /* White text */
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Font Choices */
+.font-arial {
+    font-family: 'Arial', sans-serif;
+}
+
+.font-helvetica-neue {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.font-verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Dark Theme Classes */
+.dark-theme {
+    background-color: #333333; /* Slightly darker grey */
+}
+
+.light-text {
+    color: #ffffff; /* White text */
+}
+
+.medium-text {
+    color: #666666; /* Medium grey text */
+}
+
+.darker-text {
+    color: #222222; /* Darker grey text */
+}
